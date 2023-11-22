@@ -116,6 +116,7 @@ app.put("/employee-status/:id", (req, res) => {
     }
   );
 });
+
 //delete request on employee table
 app.delete("/employee-details/:id", (req, res) => {
   const idToDelete = req.params.id;
